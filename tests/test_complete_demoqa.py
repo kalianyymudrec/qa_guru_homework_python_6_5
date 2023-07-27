@@ -2,7 +2,7 @@ from selene import browser, have
 import os
 
 def test_complete_demoqa():
-    browser.open('/')
+    browser.open('/automation-practice-form')
     browser.element('#firstName').type('Danila')
     browser.element('#lastName').type('Panov')
     browser.element('#userEmail').type('danila@mail.ru')
